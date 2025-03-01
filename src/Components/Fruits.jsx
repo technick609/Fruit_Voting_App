@@ -2,13 +2,13 @@ import React, { useState } from "react";
 
 const Fruits = () => {
   const [count, setCount] = useState(0);
-  handleClick_1 = () => setCount(count + 1);
+  const handleClick_1 = () => setCount(count + 1);
 
   const [number, setNumber] = useState(0);
-  handleClick_2 = () => setNumber(number + 1);
+  const handleClick_2 = () => setNumber(number + 1);
 
   const [vote, setVote] = useState(0);
-  handleClick_3 = () => setVote(vote + 1);
+  const handleClick_3 = () => setVote(vote + 1);
 
   let fruits = [
     {
